@@ -3,7 +3,7 @@ int date = Convert.ToInt32(Console.ReadLine());
 
 if (date == 6 || date == 7)
 {
-    Console.Write("Выходной день");
+    Console.Write("Да");
 }
 else if (date < 1 || date > 7)
 {
@@ -11,5 +11,5 @@ else if (date < 1 || date > 7)
 }
 else
 {
-    Console.Write("Будний день");
+    Console.Write("Нет");
 }
